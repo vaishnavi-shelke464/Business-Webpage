@@ -1,0 +1,209 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: #ff4d4d;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero-section {
+    background: #f2f2f2;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ff6666;
+}
+
+/* Section Styles */
+.services {
+    background: #ffffff; /* White background for services */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    margin: 20px 0; /* Add margin for spacing from other sections */
+}
+
+.services h2 {
+    text-align: center; /* Center-align heading */
+    font-size: 2.5rem; /* Increase font size */
+    margin-bottom: 30px; /* Space below heading */
+    color: #d9534f; /* Primary color for headings */
+}
+
+.service-category {
+    margin-bottom: 40px; /* Space between categories */
+}
+
+.service-category h3 {
+    color: #d9534f; /* Heading color */
+    font-size: 1.8rem; /* Increase heading size */
+    margin-bottom: 15px; /* Space below subheading */
+}
+
+.service-list {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center-align items */
+}
+
+.service-list li {
+    font-size: 1.2rem; /* Font size for list items */
+    margin: 10px 0; /* Space between items */
+    padding: 10px; /* Add padding for comfort */
+    background: #f2f2f2; /* Light gray background for list items */
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s; /* Smooth transition */
+}
+
+.service-list li:hover {
+    background: #e0e0e0; /* Darker gray on hover */
+}
+
+.service-details {
+    text-align: center; /* Center-align text */
+    margin-top: 40px; /* Space above details */
+}
+
+.service-details p {
+    font-size: 1.1rem; /* Increase font size */
+    max-width: 600px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the paragraph */
+}
+
+
+
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Contact Section */
+/* Contact Section Styles */
+.contact-section {
+    background: #ffffff; /* White background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 20px; /* Space above section */
+}
+
+.contact-section h2 {
+    text-align: center; /* Center-align heading */
+    font-size: 2.5rem; /* Increase font size */
+    margin-bottom: 30px; /* Space below heading */
+    color: #d9534f; /* Heading color */
+}
+
+.contact-info {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the two columns */
+    align-items: flex-start; /* Align items at the start */
+}
+
+.info {
+    flex: 1; /* Allow this section to grow */
+    padding-right: 20px; /* Space between info and form */
+}
+
+.form-container {
+    flex: 1; /* Allow form section to grow */
+}
+
+.contact-section form {
+    display: flex; /* Flexbox for form layout */
+    flex-direction: column; /* Stack form elements */
+    max-width: 500px; /* Limit width for form */
+}
+
+.contact-section form label {
+    margin-bottom: 5px; /* Space below labels */
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    padding: 15px; /* Increase padding for comfort */
+    margin-bottom: 20px; /* Space between inputs */
+    border: 1px solid #ddd; /* Soft border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.contact-section form button {
+    padding: 15px; /* Increase padding for button */
+    border: none;
+    background: #d9534f; /* Button color */
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer; /* Change cursor on hover */
+    transition: background 0.3s; /* Smooth transition */
+}
+
+.contact-section form button:hover {
+    background: #c9302c; /* Darker shade on hover */
+}
+
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
